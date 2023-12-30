@@ -1,1 +1,10 @@
 lost in the middle issue of a large language Model -> trying to solve this issue by reranking 
+this problem is identified by standford , in this when having long contexts , 
+llm ignores some of the chunks of data ( as per our k )
+
+
+when k is approx greater than 10 , we can see this problem so to solve this we have multiple options
+
+- langchain : LongContextReorder (class)
+- FlashRank library by Prithivaraj Damodram 
+
